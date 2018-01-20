@@ -1,0 +1,49 @@
+baseurl = "https://DeveloperHustle.io/"
+title = "Developer Hustle"
+languageCode = "en-us"
+theme = "minimal"
+
+googleAnalytics = "UA-112770862-1"
+disqusShortname = "developerhustleio"
+
+enableEmoji = true
+
+[params]
+	author = "Ricardo N Feliciano & Will Blew"
+	profilepic = "/assets/img/logo-circle.svg"
+	description = "A podcast about tech side projects and the people who make them."
+	githubUsername = "felicianotech"
+	accent = "#A84037"
+	showBorder = true
+	backgroundColor = "#EFEFEF"
+	font = "Raleway"
+	hightlight = true
+	highlightStyle = "solarized-dark"
+	highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[blackfriday]
+	hrefTargetBlank	=	true
+
+[social]
+	twitter = "DeveloperHustle"
+
+[[menu.main]]
+	name	= "Home"
+	url		= "/"
+	weight	= -1
+
+[[menu.main]]
+	name	= "Episodes"
+	url		= "/episodes/"
+	weight	= 5
+
+
+[[menu.icon]]
+    url = "https://twitter.com/DeveloperHustle/"
+    name = "twitter"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.facebook.com/Developer-Hustle-155634778404086/"
+    name = "facebook"
+    weight = 2

@@ -1,0 +1,41 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+		<title>Developer Hustle</title>
+		<link>{{ .Site.BaseURL }}</link>
+		<language>en-us</language>
+		<copyright>&#xA9;2018 Ricardo N Feliciano</copyright>
+		<image>
+			<url>https://DeveloperHustle.io/assets/img/podcast-cover.png</url>
+			<title>Developer Hustle Logo</title>
+			<link>{{ .Site.BaseURL }}</link>
+		</image>
+		<itunes:subtitle>The podcast about tech side projects and the people that make them.</itunes:subtitle>
+		<itunes:author>Ricardo N Feliciano and Will Blew.</itunes:author>
+		<itunes:summary>Developer Hustle is a podcast about tech side projects and the people that make them. We go into the value of side project, how and why to create them, and how to maintain them while still having a family and social life.</itunes:summary>
+		<description>Developer Hustle is a podcast about tech side projects and the people that make them. We go into the value of side project, how and why to create them, and how to maintain them while still having a family and social life.</description>
+	<itunes:owner>
+		<itunes:name>Ricardo N Feliciano</itunes:name>
+		<itunes:email>Ricardo@Feliciano.Tech</itunes:email>
+	</itunes:owner>
+	<itunes:image href="https://DeveloperHustle.io/assets/img/podcast-cover.png" />
+	<itunes:category text="Technology">
+		<itunes:category text="Software How-To" />
+		<itunes:category text="Tech News" />
+	</itunes:category>
+	<itunes:keywords>hustle, developer, side projects, side hustles, programming, tech</itunes:keywords>
+	{{ range first 50 .Data.Pages }}
+	<item>
+		<title>{{ .Title }}: Why side projects? Introducing Developer Hustle </title>
+		<link>https://dl.developerhustle.io/{{ .Params.efile }}</link>
+		<itunes:author>Ricardo N Feliciano and Will Blew.</itunes:author>
+		<enclosure url="https://dl.developerhustle.io/{{ .Params.efile }}" length="1" type="audio/mpeg" />
+		<guid>https://dl.developerhustle.io/{{ .Params.efile }}</guid>
+		<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+		<itunes:duration>{{ .Params.duration}}</itunes:duration>
+		<itunes:explicit>no</itunes:explicit>
+		<description><![CDATA[{{ .Description }}]></description>
+		<itunes:summary><![CDATA[{{ .Description }}]></itunes:summary>
+	</item>
+	{{ end }}
+	</channel>
+</rss>
