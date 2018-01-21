@@ -23,6 +23,7 @@
 		<itunes:category text="Tech News" />
 	</itunes:category>
 	<itunes:keywords>hustle, developer, side projects, side hustles, programming, tech</itunes:keywords>
+	<itunes:explicit>no</itunes:explicit>
 	{{ range first 50 .Data.Pages }}
 	<item>
 		<title>{{ .Title }}: Why side projects? Introducing Developer Hustle </title>
