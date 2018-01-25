@@ -15,7 +15,7 @@ duration: "0:22:29"
 
 ## Transcript
 
-**Ricardo:** Welcome to Season 1 Episode 1 of Developer Hustle the podcast where we talk about developer side projects. The focus of this podcast is basically going to be on tips of managing your time, multiple projects and that work life balance that some people just can't seem to figure out.
+*Ricardo:* Welcome to Season 1 Episode 1 of Developer Hustle the podcast where we talk about developer side projects. The focus of this podcast is basically going to be on tips of managing your time, multiple projects and that work life balance that some people just can't seem to figure out.
 
 **Will:** All right, so I guess that leads us to the question of who are we? My name is Will. I work for Linode. I'm a Software Development Manager right now, done many things at Linode but I didn't start there. I actually started delivering pizzas and then I joined the Army and worked in intelligence for about four years and moved into the private sector working for them and then I ended up at Linode but computers have been a part of my life for as long as I can remember. I've always made things and had projects and that’s kind of what led me to doing this here with Ricardo who is kind of a different tradesman than myself.
 
@@ -115,7 +115,7 @@ duration: "0:22:29"
 
 **Will:** Yeah, it’s like the meta of side project projecting the side project for the side project for people who do side projects.
 
-**Ricardo:** Exactly.
+**Ricardo:** Exactly.cdcdjb cjhdsvjgdsvgvdsgkvdshfdsuh
 
 **Will:** Yeah seriously, thank you for listening if you’re one of the two or one people listening.
 
