@@ -26,7 +26,7 @@
 	<itunes:explicit>no</itunes:explicit>
 	{{ range first 50 .Data.Pages }}
 	<item>
-		<title>{{ .Title }}: Why side projects? Introducing Developer Hustle </title>
+		<title>{{ .Title }}</title>
 		<link>https://dl.developerhustle.io/{{ .Params.efile }}</link>
 		<itunes:author>Ricardo N Feliciano and Will Blew.</itunes:author>
 		<enclosure url="https://dl.developerhustle.io/{{ .Params.efile }}" length="1" type="audio/mpeg" />

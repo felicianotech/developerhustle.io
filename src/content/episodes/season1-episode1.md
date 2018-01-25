@@ -1,5 +1,5 @@
 ---
-title: "Season 1 Episode 1"
+title: "Season 1 Episode 1: Why create side projects? Introducing Developer Hustle"
 date: 2018-01-20T09:00:00-05:00
 description: |
   In this episode we introduce Developer Hustle and go into why we do side projects and the value we obtain from them.
