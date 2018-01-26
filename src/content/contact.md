@@ -6,6 +6,10 @@ menu:
 ---
 
 <style type="text/css">
+	form{
+		width: 100%;
+	}
+
 	input[type=email],
 	input[type=text],
 	textarea{
