@@ -5,6 +5,13 @@ menu:
     weight: 25
 ---
 
+<style type="text/css">
+	input[type=email],
+	input[type=text],
+	textarea{
+		width: 100%;
+	}
+</style>
 <form action="https://formspree.io/ricardo@feliciano.tech" method="POST">
 	<label for="name">Name:</label><br />
 	<input type="text" name="name" /><br />
