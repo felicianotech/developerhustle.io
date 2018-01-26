@@ -12,6 +12,7 @@ menu:
 		width: 100%;
 	}
 </style>
+
 <form action="https://formspree.io/ricardo@feliciano.tech" method="POST">
 	<label for="name">Name:</label><br />
 	<input type="text" name="name" /><br />
