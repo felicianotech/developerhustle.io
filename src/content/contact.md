@@ -8,6 +8,7 @@ menu:
 <style type="text/css">
 	form{
 		width: 100%;
+		width: 600px;
 	}
 
 	input[type=email],
