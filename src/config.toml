@@ -37,6 +37,11 @@ enableEmoji = true
 	url		= "/episodes/"
 	weight	= 5
 
+[[menu.main]]
+	name	= "Newsletter"
+	url		= "/newsletter/"
+	weight	= 10
+
 
 [[menu.icon]]
     url = "https://twitter.com/DeveloperHustle/"
