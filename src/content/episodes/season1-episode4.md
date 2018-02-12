@@ -29,6 +29,7 @@ Other Places To Find This Episode:
 - [Crowdfire](https://www.crowdfireapp.com/)
 - [Buffer](https://buffer.com)
 - [Tweetdeck](https://tweetdeck.twitter.com/)
+- [TeamGantt](https://www.teamgantt.com/)
 
 ## Transcript
 
