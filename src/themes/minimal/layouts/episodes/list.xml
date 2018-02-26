@@ -34,8 +34,8 @@
 		<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
 		<itunes:duration>{{ .Params.duration}}</itunes:duration>
 		<itunes:explicit>no</itunes:explicit>
-		<description><![CDATA[{{ .Description }}]></description>
-		<itunes:summary><![CDATA[{{ .Description }}]></itunes:summary>
+		<description>{{ .Description }}</description>
+		<itunes:summary>{{ .Description }}</itunes:summary>
 	</item>
 	{{ end }}
 	</channel>
