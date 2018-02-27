@@ -26,6 +26,7 @@ Other Places To Find This Episode:
 - [Telegram](https://telegram.org/)
 - [Ricardo on Telegram](http://t.me/felicianotech)
 - [Will on Telegram](http://t.me/willblew)
+- [Will's blog post on Developer Hustle](https://willblew.com/2018/02/20/podcast/)
 
 ## Transcript
 
