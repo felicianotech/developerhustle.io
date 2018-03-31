@@ -5,6 +5,7 @@ description: |
   In this episode we discuss the importance of just shipping and some tips on how to do so.
 efile: "developer-hustle-season1-episode3.mp3"
 duration: "0:41:53"
+filesize: 100547813
 ---
 
 ## Audio

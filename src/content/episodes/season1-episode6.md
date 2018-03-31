@@ -5,6 +5,7 @@ description: |
   In this episode we talk with our very first guest Kyle Galbraith about two of his side projects: a fantasy motocross league and an AWS book. We dive into both the motivations behind the projects as well as the technologies and tools.
 efile: "developer-hustle-season1-episode6.mp3"
 duration: "0:33:11"
+filesize: 79697820
 ---
 
 ## Audio

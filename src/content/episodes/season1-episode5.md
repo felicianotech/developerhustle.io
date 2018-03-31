@@ -5,6 +5,7 @@ description: |
   In this episode we discuss Work In Progress, a new online community of makers geared towards motivating each other to ship projects.
 efile: "developer-hustle-season1-episode5.mp3"
 duration: "0:22:24"
+filesize: 53810566
 ---
 
 ## Audio

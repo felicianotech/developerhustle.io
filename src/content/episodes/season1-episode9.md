@@ -5,6 +5,7 @@ description: |
   In this episode we talk with our guest Mark Korsak founder of Clash Tournaments. Mark has recently released DigiDB.io a Digimon (video game) help website as well as working on a new side hustle with a potential to be a product.
 efile: "developer-hustle-season1-episode9.mp3"
 duration: "0:35:15"
+filesize: 84665273
 ---
 
 ## Audio

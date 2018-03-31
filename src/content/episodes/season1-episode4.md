@@ -5,6 +5,7 @@ description: |
   In this episode we discuss what SaaS productivity tools we use to manage our projects.
 efile: "developer-hustle-season1-episode4.mp3"
 duration: "0:28:17"
+filesize: 67920972
 ---
 
 ## Audio

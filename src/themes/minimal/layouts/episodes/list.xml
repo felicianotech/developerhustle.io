@@ -29,10 +29,10 @@
 		<title>{{ .Title }}</title>
 		<link>https://dl.developerhustle.io/{{ .Params.efile }}</link>
 		<itunes:author>Ricardo N Feliciano and Will Blew.</itunes:author>
-		<enclosure url="https://dl.developerhustle.io/{{ .Params.efile }}" length="1" type="audio/mpeg" />
+		<enclosure url="https://dl.developerhustle.io/{{ .Params.efile }}" length="{{ .Params.filesize }}" type="audio/mpeg" />
 		<guid>https://dl.developerhustle.io/{{ .Params.efile }}</guid>
 		<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-		<itunes:duration>{{ .Params.duration}}</itunes:duration>
+		<itunes:duration>{{ .Params.duration }}</itunes:duration>
 		<itunes:explicit>no</itunes:explicit>
 		<description>{{ .Description }}</description>
 		<itunes:summary>{{ .Description }}</itunes:summary>

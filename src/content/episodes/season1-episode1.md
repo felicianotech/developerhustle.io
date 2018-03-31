@@ -5,6 +5,7 @@ description: |
   In this episode we introduce Developer Hustle and go into why we do side projects and the value we obtain from them.
 efile: "developer-hustle-season1-episode1.mp3"
 duration: "0:22:29"
+filesize: 43153592
 ---
 
 ## Audio
