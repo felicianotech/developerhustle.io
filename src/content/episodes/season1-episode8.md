@@ -5,6 +5,7 @@ description: |
   In this episode we discuss Sweat Marketing. How to get users to your projects with little to no budget.
 efile: "developer-hustle-season1-episode8.mp3"
 duration: "0:27:20"
+filesize: 65674061
 ---
 
 ## Audio

@@ -5,6 +5,7 @@ description: |
   In this episode we discuss how some side hustles don't have to be an incremental climb. There's things you can do to make money (or whatever your goal is) within a month or even a week.
 efile: "developer-hustle-season1-episode7.mp3"
 duration: "0:36:53"
+filesize: 88599928
 ---
 
 ## Audio

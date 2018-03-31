@@ -5,6 +5,7 @@ description: |
   In this episode we discuss time management for side projects and some techniques that we use.
 efile: "developer-hustle-season1-episode2.mp3"
 duration: "0:36:04"
+filesize: 69231078
 ---
 
 ## Audio
