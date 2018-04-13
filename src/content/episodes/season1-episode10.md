@@ -1,5 +1,5 @@
 ---
-title: "Season 1 Episode 10: Kiting a Job for a Side Project"
+title: "Season 1 Episode 10: Quitting a Job for a Side Project"
 date: 2018-04-13T15:30:00-04:00
 description: In this episode we discuss the pros and cons of quitting a full-time job in order to take a side project to the next level.
 efile: "developer-hustle-season1-episode10.mp3"
