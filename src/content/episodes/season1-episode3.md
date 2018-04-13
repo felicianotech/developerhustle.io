@@ -6,13 +6,13 @@ description: |
 efile: "developer-hustle-season1-episode3.mp3"
 duration: "0:41:53"
 filesize: 100547813
+season: 1
+episode: 3
 ---
 
 ## Audio
 
-<audio style="width:100%;" controls>
-	<source src="http://dl.developerhustle.io/developer-hustle-season1-episode3.mp3" type="audio/mpeg" />
-</audio>
+{{< audiobox >}}
 
 Other Places To Find This Episode:
 

@@ -9,34 +9,36 @@
 			<title>Developer Hustle Logo</title>
 			<link>{{ .Site.BaseURL }}</link>
 		</image>
-		<itunes:subtitle>The podcast about tech side projects and the people that make them.</itunes:subtitle>
+		<itunes:subtitle>The podcast about tech side projects and the people who make them.</itunes:subtitle>
 		<itunes:author>Ricardo N Feliciano and Will Blew.</itunes:author>
-		<itunes:summary>Developer Hustle is a podcast about tech side projects and the people that make them. We go into the value of side project, how and why to create them, and how to maintain them while still having a family and social life.</itunes:summary>
-		<description>Developer Hustle is a podcast about tech side projects and the people that make them. We go into the value of side project, how and why to create them, and how to maintain them while still having a family and social life.</description>
-	<itunes:owner>
-		<itunes:name>Ricardo N Feliciano</itunes:name>
-		<itunes:email>Ricardo@Feliciano.Tech</itunes:email>
-	</itunes:owner>
-	<itunes:image href="https://DeveloperHustle.io/assets/img/podcast-cover.png" />
-	<itunes:category text="Technology">
-		<itunes:category text="Software How-To" />
-		<itunes:category text="Tech News" />
-	</itunes:category>
-	<itunes:keywords>hustle, developer, side projects, side hustles, programming, tech</itunes:keywords>
-	<itunes:explicit>no</itunes:explicit>
-	{{ range first 50 .Data.Pages }}
-	<item>
-		<title>{{ .Title }}</title>
-		<link>https://dl.developerhustle.io/{{ .Params.efile }}</link>
-		<itunes:author>Ricardo N Feliciano and Will Blew.</itunes:author>
-		<enclosure url="https://dl.developerhustle.io/{{ .Params.efile }}" length="{{ .Params.filesize }}" type="audio/mpeg" />
-		<guid>https://dl.developerhustle.io/{{ .Params.efile }}</guid>
-		<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-		<itunes:duration>{{ .Params.duration }}</itunes:duration>
+		<description>Developer Hustle is a podcast about tech side projects and the people who make them. We go into the value of side project, how and why to create them, and how to maintain them while still having a family and social life.</description>
+		<itunes:summary>Developer Hustle is a podcast about tech side projects and the people who make them. We go into the value of side project, how and why to create them, and how to maintain them while still having a family and social life.</itunes:summary>
+		<itunes:owner>
+			<itunes:name>Ricardo N Feliciano</itunes:name>
+			<itunes:email>Ricardo@Feliciano.Tech</itunes:email>
+		</itunes:owner>
+		<itunes:image href="https://DeveloperHustle.io/assets/img/podcast-cover.png" />
+		<itunes:category text="Technology">
+			<itunes:category text="Software How-To" />
+			<itunes:category text="Tech News" />
+		</itunes:category>
+		<itunes:keywords>hustle, developer, side projects, side hustles, programming, tech</itunes:keywords>
 		<itunes:explicit>no</itunes:explicit>
-		<description>{{ .Description }}</description>
-		<itunes:summary>{{ .Description }}</itunes:summary>
-	</item>
-	{{ end }}
+		{{ range first 50 .Data.Pages }}
+		<item>
+			<title>{{ .Title }}</title>
+			<itunes:title>{{ .Title }}</itunes:title>
+			<link>{{ .Permalink }}</link>
+			<enclosure url="https://dl.developerhustle.io/developer-hustle-season{{ .Params.season }}-episode{{ .Params.episode }}.mp3" length="{{ .Params.filesize }}" type="audio/mpeg" />
+			<guid>https://dl.developerhustle.io/developer-hustle-season{{ .Params.season }}-episode{{ .Params.episode }}.mp3</guid>
+			<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+			<itunes:duration>{{ .Params.duration }}</itunes:duration>
+			<itunes:explicit>no</itunes:explicit>
+			<description>{{ .Description }}</description>
+			<itunes:summary>{{ .Description }}</itunes:summary>
+			<itunes:season>{{ .Params.season }}</itunes:season>
+			<itunes:episode>{{ .Params.episode }}</itunes:episode>
+		</item>
+		{{ end }}
 	</channel>
 </rss>

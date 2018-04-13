@@ -6,13 +6,13 @@ description: |
 efile: "developer-hustle-season1-episode9.mp3"
 duration: "0:35:15"
 filesize: 84665273
+season: 1
+episode: 9
 ---
 
 ## Audio
 
-<audio style="width:100%;" controls>
-	<source src="http://dl.developerhustle.io/developer-hustle-season1-episode9.mp3" type="audio/mpeg" />
-</audio>
+{{< audiobox >}}
 
 Other Places To Find This Episode:
 
