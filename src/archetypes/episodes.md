@@ -1,17 +1,18 @@
 ---
-title: "Season X Episode Y: Episode Episode Topic"
-date: 2018-01-26T02:50:00-05:00
+title: "Season X Episode Y: Episode Topic"
+date: 2018-01-26T02:50:00-04:00
 description: |
   In this episode we discuss ...
 efile: "developer-hustle-seasonX-episodeY.mp3"
 duration: "0:MM:SS"
+filesize: integer-of-bytes
+season: X
+episode: Y
 ---
 
 ## Audio
 
-<audio style="width:100%;" controls>
-	<source src="http://dl.developerhustle.io/developer-hustle-seasonX-episodeY.mp3" type="audio/mpeg" />
-</audio>
+{{< audiobox >}}
 
 Other Places To Find This Episode:
 
