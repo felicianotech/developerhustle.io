@@ -20,7 +20,3 @@ Other Places To Find This Episode:
 - [iTunes](https://itunes.apple.com/us/podcast/developer-hustle/id1338544467)
 - [Google Play Music](https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&isi=691797987&ius=googleplaymusic&apn=com.google.android.music&link=https://play.google.com/music/m/Iurdet57b3zqqvalbsksrvbinse?t%3DDeveloper_Hustle%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16)
 - [Stitcher](http://stitcher.com/s?fid=165580&refid=stpr)
-
-## Transcript
-
-Coming Soon.
