@@ -6,13 +6,13 @@ description: |
 efile: "developer-hustle-season1-episode8.mp3"
 duration: "0:27:20"
 filesize: 65674061
+season: 1
+episode: 8
 ---
 
 ## Audio
 
-<audio style="width:100%;" controls>
-	<source src="http://dl.developerhustle.io/developer-hustle-season1-episode8.mp3" type="audio/mpeg" />
-</audio>
+{{< audiobox >}}
 
 Other Places To Find This Episode:
 
