@@ -26,7 +26,3 @@ Other Places To Find This Episode:
 - [Clash Tournaments](http://clashtournaments.com/)
 - [DigiDB](http://digidb.io/)
 - [Mark Korsak's Twitter account](https://twitter.com/CT_Chibo)
-
-## Transcript
-
-Coming Soon.
