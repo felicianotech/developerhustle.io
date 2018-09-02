@@ -27,6 +27,7 @@ enableEmoji = true
 [social]
 	twitter = "DeveloperHustle"
 
+
 [[menu.main]]
 	name	= "Home"
 	url		= "/"
@@ -52,3 +53,16 @@ enableEmoji = true
     url = "https://www.facebook.com/Developer-Hustle-155634778404086/"
     name = "facebook"
     weight = 2
+
+
+[[menu.social]]
+	name = "twitter"
+	url = "https://twitter.com/DeveloperHustle/"
+
+[[menu.social]]
+    name = "github"
+    url = "https://github.com/felicianotech/developerhustle.io"
+
+[[menu.social]]
+    name = "facebook"
+    url = "https://www.facebook.com/DeveloperHustle"
